@@ -144,3 +144,17 @@
 // https://leaddeal.zeustrack.io
 // alexche-work@ukr.net
 // Poiuytrzxcv1
+
+//!Rest оператор и параметры по умолчанию
+const log = function(a, b, ...rest) {
+    console.log(a, b, rest);
+};
+
+log('basic', 'rest', 'operator', 'useg');
+
+function calcOrDouble(number, basis = 2) {
+    // basis = basis || 2; //? старая запись параметра по умолчанию
+    console.log(number * basis);
+}
+
+calcOrDouble(3);
