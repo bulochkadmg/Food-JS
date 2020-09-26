@@ -141,20 +141,16 @@
 // console.log(square.calcArea());
 // console.log(long.calcArea());
 
-// https://leaddeal.zeustrack.io
-// alexche-work@ukr.net
-// Poiuytrzxcv1
-
 //!Rest оператор и параметры по умолчанию
-const log = function(a, b, ...rest) {
-    console.log(a, b, rest);
-};
+// const log = function(a, b, ...rest) {
+//     console.log(a, b, rest);
+// };
 
-log('basic', 'rest', 'operator', 'useg');
+// log('basic', 'rest', 'operator', 'useg');
 
-function calcOrDouble(number, basis = 2) {
+// function calcOrDouble(number, basis = 2) {
     // basis = basis || 2; //? старая запись параметра по умолчанию
-    console.log(number * basis);
-}
+//     console.log(number * basis);
+// }
 
-calcOrDouble(3);
+// calcOrDouble(3);
